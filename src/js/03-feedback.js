@@ -16,7 +16,7 @@ feedbackForm.addEventListener(
         email: emailInput.value,
         message: messageInput.value
     }
-    localStorage.getItem ("feedback-form-state", JSON.stringify(formData), 500)
+    localStorage.setItem ("feedback-form-state", JSON.stringify(formData), 500)
     }
     )
     )
